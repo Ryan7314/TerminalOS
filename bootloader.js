@@ -1,5 +1,5 @@
 const fs = require('fs');
-// Hier laden wir deine Werkzeuge aus Schritt 1
+// Hier laden wir die Werkzeuge 
 const { sleep, zeigeLadebalken } = require('./utils'); 
 
 async function starteInstallation(configFile) {
