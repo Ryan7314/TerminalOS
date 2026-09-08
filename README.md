@@ -28,9 +28,12 @@ Das System bringt bereits eine Reihe integrierter Werkzeuge und Befehle mit:
 * `echo <text>` – Gibt den übergebenen Text in der Konsole aus
 * `date` – Zeigt das aktuelle Datum und die Uhrzeit an
 * `systeminfo` – Stellt Systeminformationen und Laufzeitdaten bereit
-* `chuser <name>` – Ändert den Benutzernamen und speichert ihn dauerhaft in der Konfiguration
+* `chuser <name>` – Ändert den Benutzernamen und speichert ihn dauerhaft in der Konfiguratio
+* `ls` - Zeigt den Inhalt de aktuellen Ordners an
+* `cd [Pfad]` - Wechselt den Ordner (z.B. cd..oder cd ordnername)
+* `write [n]`- Erstellt/schreibt eine Textdatei [z.B. write notiz.txt
+* `read [n]`- Liest eine Datei aus (z.B. read notiz.txt
 * `exit` – Fährt das System mit einer Herunterfahren-Animation sauber herunter
-
 ---
 
 ## 🚀 Installation & Start
