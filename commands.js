@@ -55,7 +55,7 @@ async function verarbeiteBefehl(command, args, username, configFile, rl, starteT
 
     case 'systeminfo':
       console.log("\n--- TerminalOS<_ Systeminfo ---");
-      console.log("  OS: Terminal OS v0.0.1");
+      console.log("  OS: Terminal OS v0.0.2");
       console.log(`  User: ${username}`);
       console.log(`  Verzeichnis: ${currentDir}`); // Aktuellen Pfad in der Info anzeigen
       console.log(`  Kernel: Node.js ${process.version}`);
