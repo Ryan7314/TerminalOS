@@ -1,7 +1,7 @@
 const fs = require('fs');
 const readline = require('readline');
 
-// Importiere deine eigenen Module
+
 const { starteInstallation, starteNormalenBoot } = require('./bootloader');
 const { verarbeiteBefehl } = require('./commands');
 
@@ -17,7 +17,7 @@ function warteAufReboot() {
     if (input.trim().toLowerCase() === 'reboot') {
       console.log('\nSystem wird neu gestartet...\n');
       setTimeout(() => {
-        main(); // Startet die Main-Funktion neu -> erkennt jetzt die Config-Datei!
+        main(); // Startet die Main-Funktion neu -> erkennt jetzt die Config-Datei
       }, 1500);
     } else {
       console.log("Unbekannter Befehl. Bitte tippe 'reboot' ein.");
