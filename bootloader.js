@@ -1,5 +1,4 @@
 const fs = require('fs');
-// Hier laden wir deine Werkzeuge aus Schritt 1
 const { sleep, zeigeLadebalken } = require('./utils'); 
 
 async function starteInstallation(configFile) {
@@ -9,7 +8,6 @@ async function starteInstallation(configFile) {
   console.log("==================================================");
   await sleep(1000);
 
-  // Dein Original-Countdown
   console.log("5..."); await sleep(1000);
   console.log("4..."); await sleep(1000);
   console.log("3..."); await sleep(1000);
@@ -17,7 +15,7 @@ async function starteInstallation(configFile) {
   console.log("1..."); await sleep(1000);
   console.log("0..."); await sleep(1000);
 
-  // Deine Original-Ladebalken
+  
   await zeigeLadebalken("Installiere Basis-System ", 15);
   await zeigeLadebalken("Kompiliere Kernel-Module ", 20);
   await zeigeLadebalken("Konfiguriere Netzwerke   ", 10);
