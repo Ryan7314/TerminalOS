@@ -43,7 +43,7 @@ async function starteInstallation(configFile) {
 
 async function starteNormalenBoot() {
   console.clear();
-  await zeigeLadebalken("Starte TerminalOS<_ v0.01...", 5);
+  await zeigeLadebalken("Starte TerminalOS<_ v0.0.2...", 5);
 
   console.log("[ OK ] Lade Kernel v0.1.0-terminal-os...");
   await sleep(500);
