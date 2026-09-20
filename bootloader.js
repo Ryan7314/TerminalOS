@@ -27,7 +27,7 @@ async function starteInstallation(configFile) {
   console.log("[ OK ] Schreibe Bootloader GRUB auf /dev/sda...");
   await sleep(2000);
 
-  // Speichert die Systemdaten (Dein Code)
+  // Speichert die Systemdaten 
   const systemDaten = {
     isInstalled: true,
     username: "root",
@@ -45,7 +45,7 @@ async function starteNormalenBoot() {
   console.clear();
   await zeigeLadebalken("Starte TerminalOS<_ v0.0.2...", 5);
 
-  console.log("[ OK ] Lade Kernel v0.1.0-terminal-os...");
+  console.log("[ OK ] Lade Kernel v0.0.1-terminal-os...");
   await sleep(500);
   console.log("[ OK ] Mounte virtuelles Dateisystem...");
   await sleep(500);
