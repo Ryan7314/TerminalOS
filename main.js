@@ -35,7 +35,7 @@ function startTerminal(username) {
     const command = teile[0].toLowerCase();
     const args = teile.slice(1);
 
-    // Übergibt die Eingabe an die commands.js
+    // Übergibt die Eingabe an  commands.js
     verarbeiteBefehl(command, args, username, configFile, rl, startTerminal);
   });
 }
