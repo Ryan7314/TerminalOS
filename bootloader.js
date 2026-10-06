@@ -45,7 +45,7 @@ async function starteNormalenBoot() {
   console.clear();
   await zeigeLadebalken("Starte TerminalOS<_ v0.0.2...", 5);
 
-  console.log("[ OK ] Lade Kernel v0.0.1-terminal-os...");
+  console.log("[ OK ] Lade Kernel v0.0.2-terminal-os...");
   await sleep(500);
   console.log("[ OK ] Mounte virtuelles Dateisystem...");
   await sleep(500);
